@@ -1,4 +1,4 @@
 // Initial value for motor angle
 void initialize(void){
-	RTE_Call_set_motor_angle(60);
+	RTE_Call_set_motor_angle(90);
 }
