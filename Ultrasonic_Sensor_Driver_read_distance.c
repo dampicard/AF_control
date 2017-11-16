@@ -1,6 +1,7 @@
 #include "Fmi_Cfg.h" // Ids for <XXX>WriteToSharedObj
 #include "ASimSharedObjUtils.h" // <XXX>WriteToSharedObj
 
+// Driver for ultrasonic sensor
 void read_distance(uint16_t* distance){
   fmi2Integer data;
   
