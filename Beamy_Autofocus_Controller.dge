@@ -372,10 +372,10 @@
   },
   "defaultRepository": {
     "type": "GIT",
-    "remoteRepository": "https://776f3d5453204c0838ec8770d232471bafda27d6@github.com/dampicard/AF_control.git",
+    "remoteRepository": "https://9e079d2bfd0346ec1671ac12282a033b4d6b4eba@github.com/dampicard/AF_control.git",
     "user": "",
     "pwd": "",
-    "accessToken": "776f3d5453204c0838ec8770d232471bafda27d6"
+    "accessToken": "9e079d2bfd0346ec1671ac12282a033b4d6b4eba"
   },
   "testCases": [
     {
