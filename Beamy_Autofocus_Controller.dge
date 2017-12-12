@@ -370,13 +370,6 @@
     "name": "Beamy_Autofocus_Controller",
     "uuid": "d418ba5b-587d-4317-993e-c9b70c2819fd"
   },
-  "defaultRepository": {
-    "type": "",
-    "remoteRepository": "",
-    "user": "",
-    "pwd": "",
-    "accessToken": ""
-  },
   "testCases": [
     {
       "implementation": "#include \u003cASim_Api.h\u003e\n#include \u003cfmuApi.h\u003e\n\nvoid testcase1(int id){\n\t/* Run simulation during 1 second */\n\tASim_Runduring(id, 1.0);\n\t/* Add the call to C or Cpp methods of TestCase */\n}",
