@@ -257,8 +257,8 @@
           "uuid": "455d2a56-4bcc-46b2-bc08-4261a9fb1150"
         },
         {
-          "x": -461.0,
-          "y": -16.0,
+          "x": -230.0,
+          "y": 9.0,
           "typeID": "0048fabe-ce8f-439f-ade0-6487abdf736c",
           "name": "Switch_Button_Driver",
           "uuid": "9474eb04-315f-4e8f-a429-6c41c1cb4291"
@@ -371,11 +371,11 @@
     "uuid": "d418ba5b-587d-4317-993e-c9b70c2819fd"
   },
   "defaultRepository": {
-    "type": "GIT",
-    "remoteRepository": "https://9e079d2bfd0346ec1671ac12282a033b4d6b4eba@github.com/dampicard/AF_control.git",
+    "type": "",
+    "remoteRepository": "",
     "user": "",
     "pwd": "",
-    "accessToken": "9e079d2bfd0346ec1671ac12282a033b4d6b4eba"
+    "accessToken": ""
   },
   "testCases": [
     {
