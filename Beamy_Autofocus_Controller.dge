@@ -105,7 +105,7 @@
         "libraries": [],
         "runnables": [
           {
-            "implementation": "#include \"Fmi_Cfg.h\" // Ids for \u003cXXX\u003eWriteToSharedObj\n#include \"ASimSharedObjUtils.h\" // \u003cXXX\u003eWriteToSharedObj\n\nvoid read_distance(uint16_t* distance){\n  fmi2Integer data;\n  \n  fmi2IntegerReadFromWriteBuffer(InputId_Ultrasonic_Sensor_Driver_read_distance_0, \u0026data);\n  \n  *distance \u003d (uint16_t) data;\n}",
+            "implementation": "void read_distance(uint16_t* distance){\n\n}",
             "arguments": [
               "uint16_t*:OUT"
             ],
@@ -123,7 +123,7 @@
             "uuid": "55cfe1ac-dcbe-4887-85f6-88c08506f04c"
           }
         },
-        "category": "SERVICE",
+        "category": "USER",
         "name": "Ultrasonic_Sensor_Driver",
         "uuid": "14e534da-cb12-4701-94d3-71228b7a293b"
       },
@@ -187,7 +187,7 @@
             "uuid": "6e95f797-aac5-4cae-af14-b8fbacaf688e"
           }
         },
-        "category": "SERVICE",
+        "category": "USER",
         "name": "Servo_Motor_Driver",
         "uuid": "d0ed4687-2351-4cf1-aeac-d8a689aefcb5"
       },
@@ -214,7 +214,7 @@
             "uuid": "7375766a-b163-4e6d-a148-c709c7bec2c5"
           }
         },
-        "category": "SERVICE",
+        "category": "USER",
         "name": "Switch_Button_Driver",
         "uuid": "0048fabe-ce8f-439f-ade0-6487abdf736c"
       }
