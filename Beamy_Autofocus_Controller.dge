@@ -385,15 +385,15 @@
         "generationResult": {
           "domain": "MAKER",
           "target": "Raspberry Pi 3 (Model B)",
-          "id": "1f4ef4d6-580d-4baf-a222-9c2315c224e0201802191748",
+          "id": "c7244bf1-8bed-4d01-9a1a-91846e90c2fa201802191733",
           "status": "FAILURE",
           "buildLog": {
-            "log": "\u003cbr\u003e[STD] Compiler arm-linux-gnueabihf- gcc is required but not found in PATH.  Aborting.\n\u003cbr\u003e[STD] /share/DGE/RIOT-OS//Makefile.include:301: recipe for target \u0027..compiler-check\u0027 failed\n\u003cbr\u003e[ERR] make: *** [..compiler-check] Error 1\n",
-            "uuid": "b50d8e99-f644-4acd-a554-17d0ff60ec7b"
+            "log": "\u003cbr\u003e[STD] Compiler arm-linux-gnueabihf- gcc is required but not found in PATH.  Aborting.\n\u003cbr\u003e[ERR] make: *** [..compiler-check] Error 1\n\u003cbr\u003e[STD] /share/DGE/RIOT-OS//Makefile.include:301: recipe for target \u0027..compiler-check\u0027 failed\n",
+            "uuid": "514d6959-b2a3-4568-8153-ef4587c835ef"
           },
-          "date": "Feb 19, 2018 5:10:51 PM",
-          "name": "Beamy_Autofocus_Controller_2018.02.19 05:10:51",
-          "uuid": "734e8ecd-42a4-418f-a96d-398de29882a0"
+          "date": "Feb 19, 2018 5:12:05 PM",
+          "name": "Beamy_Autofocus_Controller_2018.02.19 05:12:05",
+          "uuid": "d160eaeb-80ac-4b86-9ec8-0cf232838ecf"
         },
         "generationResultStatus": "DONE",
         "testResultStatus": "DONE",
