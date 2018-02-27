@@ -26,6 +26,13 @@
             "implementationType": "FBD",
             "name": "runnable1",
             "uuid": "7d9d3929-83a2-442a-ae23-c366e8a7ff77"
+          },
+          {
+            "implementation": "{\n  \"interface_\": {\n    \"type\": \"SYSTEM\",\n    \"portSpecifications\": []\n  },\n  \"blockStates\": [\n    {\n      \"isInitial\": true,\n      \"name\": \"State1\",\n      \"type\": {\n        \"type\": \"STATE\",\n        \"portSpecifications\": [\n          {\n            \"name\": \"1\",\n            \"direction\": \"IN\",\n            \"xRatio\": 0.5,\n            \"yRatio\": 0.0,\n            \"simuNumber\": 0\n          },\n          {\n            \"name\": \"2\",\n            \"direction\": \"OUT\",\n            \"xRatio\": 0.5,\n            \"yRatio\": 1.0,\n            \"simuNumber\": 0\n          },\n          {\n            \"name\": \"Action\",\n            \"direction\": \"ACTION\",\n            \"xRatio\": 1.0,\n            \"yRatio\": 0.5,\n            \"simuNumber\": 0\n          }\n        ]\n      },\n      \"x\": -40.0,\n      \"y\": -40.0,\n      \"width\": 80.0,\n      \"height\": 80.0,\n      \"simuStartIndex\": 0\n    }\n  ],\n  \"blockActions\": [],\n  \"blockTransitions\": [\n    {\n      \"condition\": \"True\",\n      \"name\": \"Transition1\",\n      \"type\": {\n        \"type\": \"TRANSITION\",\n        \"portSpecifications\": [\n          {\n            \"name\": \"1\",\n            \"direction\": \"IN\",\n            \"xRatio\": 0.5,\n            \"yRatio\": 0.0,\n            \"simuNumber\": 0\n          },\n          {\n            \"name\": \"2\",\n            \"direction\": \"OUT\",\n            \"xRatio\": 0.5,\n            \"yRatio\": 1.0,\n            \"simuNumber\": 0\n          }\n        ]\n      },\n      \"x\": -26.666666,\n      \"y\": -2.5,\n      \"width\": 53.333332,\n      \"height\": 5.0,\n      \"simuStartIndex\": 0\n    }\n  ],\n  \"connections\": []\n}",
+            "arguments": [],
+            "implementationType": "SFC",
+            "name": "runnable2",
+            "uuid": "08280eba-84e4-4303-849c-dcb81cbf7fae"
           }
         ],
         "ports": {
@@ -1085,6 +1092,10 @@
       "7d9d3929-83a2-442a-ae23-c366e8a7ff77": [
         -183.0,
         40.0
+      ],
+      "08280eba-84e4-4303-849c-dcb81cbf7fae": [
+        -183.0,
+        140.0
       ]
     },
     "name": "Beamy_Autofocus_Controller",
