@@ -71,6 +71,45 @@
       "width": 45.0,
       "height": 35.0,
       "simuStartIndex": 0
+    },
+    {
+      "name": "MinMax1",
+      "type": {
+        "operation": "MINMAX",
+        "portSpecifications": [
+          {
+            "name": "1",
+            "direction": "IN",
+            "xRatio": 0.0,
+            "yRatio": 0.5,
+            "simuNumber": 0
+          },
+          {
+            "name": "2",
+            "direction": "OUT",
+            "xRatio": 1.0,
+            "yRatio": 0.5,
+            "simuNumber": 0
+          }
+        ]
+      },
+      "attributes": [
+        {
+          "name": "Minimum",
+          "type": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ""
+        },
+        {
+          "name": "Maximum",
+          "type": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ""
+        }
+      ],
+      "x": -30.0,
+      "y": -20.0,
+      "width": 60.0,
+      "height": 40.0,
+      "simuStartIndex": 0
     }
   ],
   "ios": [
