@@ -194,10 +194,8 @@
         "libraries": [],
         "runnables": [
           {
-            "implementation": "#include \u003cstdint.h\u003e\n#include \"Fmi_Cfg.h\" // Ids for \u003cXXX\u003eWriteToSharedObj\n#include \"ASimSharedObjUtils.h\" // \u003cXXX\u003eWriteToSharedObj\n\nvoid read_switch_status(uint8_t* status){\n  fmi2Integer data;\n  \n  fmi2IntegerReadFromWriteBuffer(InputId_Switch_Button_Driver_read_switch_status_0, \u0026data);\n  \n  *status \u003d (uint8_t) data;\n}",
-            "arguments": [
-              "uint8_t*:OUT"
-            ],
+            "implementation": "#include \u003cstdint.h\u003e\n#include \"Fmi_Cfg.h\" // Ids for \u003cXXX\u003eWriteToSharedObj\n#include \"ASimSharedObjUtils.h\" // \u003cXXX\u003eWriteToSharedObj\n\n// OUT\nvoid read_switch_status(uint8_t* status){\n  fmi2Integer data;\n  \n  fmi2IntegerReadFromWriteBuffer(InputId_Switch_Button_Driver_read_switch_status_0, \u0026data);\n  \n  *status \u003d (uint8_t) data;\n}",
+            "arguments": [],
             "implementationType": "C",
             "name": "read_switch_status",
             "uuid": "22898a38-e7f2-4adf-8f37-116d084f4d0b"
