@@ -167,10 +167,8 @@
         "libraries": [],
         "runnables": [
           {
-            "implementation": "#include \"Fmi_Cfg.h\" // Ids for \u003cXXX\u003eWriteToSharedObj\n#include \"ASimSharedObjUtils.h\" // \u003cXXX\u003eWriteToSharedObj\n\nvoid set_motor_angle(uint16_t angle){\n  \tfmi2Integer buf \u003d (fmi2Integer) angle;\n  \tfmi2IntegerWriteToSharedObj(SharedId_Servo_Motor_Driver_set_motor_angle_0, \u0026buf);\n}",
-            "arguments": [
-              "uint16_t:IN"
-            ],
+            "implementation": "#include \"Fmi_Cfg.h\" // Ids for \u003cXXX\u003eWriteToSharedObj\n#include \"ASimSharedObjUtils.h\" // \u003cXXX\u003eWriteToSharedObj\n\n// IN\nvoid set_motor_angle(uint16_t angle){\n  \tfmi2Integer buf \u003d (fmi2Integer) angle;\n  \tfmi2IntegerWriteToSharedObj(SharedId_Servo_Motor_Driver_set_motor_angle_0, \u0026buf);\n}",
+            "arguments": [],
             "implementationType": "C",
             "name": "set_motor_angle",
             "uuid": "af0d0ded-e0db-417b-bc33-ba7356c72fb5"
