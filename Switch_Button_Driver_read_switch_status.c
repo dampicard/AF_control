@@ -2,6 +2,7 @@
 #include "Fmi_Cfg.h" // Ids for <XXX>WriteToSharedObj
 #include "ASimSharedObjUtils.h" // <XXX>WriteToSharedObj
 
+// OUT
 void read_switch_status(uint8_t* status){
   fmi2Integer data;
   
