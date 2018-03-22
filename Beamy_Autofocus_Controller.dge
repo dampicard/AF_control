@@ -687,7 +687,7 @@
             "operation": null,
             "uuid": "1dbef011-dda7-45e4-9c84-dbf4e002d99a",
             "direction": "IN" },
-          "NewPort1": { "name": "activation",
+          "NewPort1": { "name": "activation2",
             "category": "DATA",
             "type": "uint8_t",
             "operation": null,
