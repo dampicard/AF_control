@@ -738,7 +738,7 @@
             "operation": null,
             "uuid": "75f3cde6-d4a1-4c38-a115-a721a56cdc2d",
             "direction": "IN" },
-          "NewPort3": { "name": "set_motor_angle",
+          "NewPort3": { "name": "set_motor_angle1",
             "category": "OPERATION",
             "type": null,
             "operation": "",
