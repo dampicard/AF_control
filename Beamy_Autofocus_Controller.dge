@@ -530,7 +530,7 @@
               "uuid": "935180f5-a917-4cdf-9970-311c92e76663" },
             "repository": null,
             "uuid": "22898a38-e7f2-4adf-8f37-116d084f4d0b" } ],
-        "ports": { "NewPort1": { "name": "l9t",
+        "ports": { "NewPort1": { "name": "l9t2",
             "category": "OPERATION",
             "type": null,
             "operation": "read_switch_status",
