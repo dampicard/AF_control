@@ -770,7 +770,7 @@
         "ports": { "NewPort1": { "name": "read_distance01zhjhjk",
             "category": "OPERATION",
             "type": null,
-            "operation": "read_distance",
+            "operation": "",
             "uuid": "55cfe1ac-dcbe-4887-85f6-88c08506f04c",
             "direction": "OUT" } },
         "category": "SERVICE",
