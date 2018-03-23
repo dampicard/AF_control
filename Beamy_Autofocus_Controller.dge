@@ -767,7 +767,7 @@
               "uuid": "a316a21a-6462-4d11-b33c-306a681ba7a0" },
             "repository": null,
             "uuid": "6b3943e0-6a62-403d-ba7f-ebe984a00a69" } ],
-        "ports": { "NewPort1": { "name": "read_distance01uiouio",
+        "ports": { "NewPort1": { "name": "read_distance01",
             "category": "OPERATION",
             "type": null,
             "operation": "read_distance",
